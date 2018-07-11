@@ -1,0 +1,11 @@
+{
+    "profil":"Mon profil",
+    "laura":"Laura Santana",
+    "massage":"Consulter et modifier vos informations :",
+    "prenom":"laura",
+    "nom":"santana",
+    "telephone":"0559989898",
+    "idClient":"000",
+    "image":["img/utilisateur.jpg"],
+    "dents":["img/dent1.jpg","img/dent2.jpg","img/dent3.jpg","img/dent4.png"]
+}
