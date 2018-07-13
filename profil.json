@@ -1,0 +1,15 @@
+{
+    "profil":"",
+    "codePatient": "1234",
+    "prenom":"Pierre",
+    "nom":"santana",
+    "telephone":"0559989898",
+    "dateNaissance":"22/02/1994",
+    "photoProfil":"img/utilisateur.jpg",
+    "photoFaceAv": "img/dent1.jpg",
+    "photoFaceAp": "img/dent2.jpg",
+    "photoIntraAv":"img/dent3.jpg",
+    "photoIntraAp":"img/dent4.png",
+    "photoRadioAv":"img/dent4.png",
+    "photoRadioAp":"img/dent4.png"
+}
