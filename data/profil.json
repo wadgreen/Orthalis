@@ -1,11 +1,14 @@
 {
-    "profil":"Mon profil",
-    "laura":"Laura Santana",
-    "massage":"Consulter et modifier vos informations :",
-    "prenom":"laura",
+    "photoProfil":"img/utilisateur.jpg",
+    "codePatient": "1234",
+    "prenom":"Pierre",
     "nom":"santana",
-    "telephone":"0559989898",
-    "idClient":"000",
-    "image":["img/utilisateur.jpg"],
-    "dents":["img/dent1.jpg","img/dent2.jpg","img/dent3.jpg","img/dent4.png"]
+    "telephone":"0559989808",
+    "dateNaissance":"22/02/1994",
+    "photoFaceAv": "img/dent1.jpg",
+    "photoFaceAp": "img/dent2.jpg",
+    "photoIntraAv":"img/dent3.jpg",
+    "photoIntraAp":"img/dent4.png",
+    "photoRadioAv":"img/dent4.png",
+    "photoRadioAp":"img/dent4.png"
 }
