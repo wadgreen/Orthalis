@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-     <script type = "module" src="js/initProfile.js"></script>
 </head>
 
 <body>
@@ -23,7 +22,7 @@
     <!-- Navigation -->
     <nav role="navigation"><h5 class="center">Mon profil</h5>
         <ul id="slide-out" class="sidenav sidenav-fixed center">
-            <li><img src="img/utilisateur.jpg" id="#imgClient" class="circle"></li>
+            <li><img src="img/utilisateur.jpg" id="imgClient" class="circle"></li>
             <li><a href="accueil.html"><i class="material-icons white-text">home</i>Accueil</a></li>
             <li><a href="cabinet.html"><i class="material-icons white-text">location_on</i>Cabinet</a></li>
             <li><a href="profil.html" class="active"><i class="material-icons white-text">person</i>Mon profil</a></li>
@@ -38,10 +37,10 @@
         <header>
                 <img class="responsive-img"  src="img/vaguetop.svg">
             <div class="container center-align textHeader">
-                <img class="ImgProfil circle z-depth-3" src="img/utilisateur.jpg" id="circle">
-                <h4 class="TextNomUtilisateur center orange-text" id="lau">Laura Santana</h4>
+                <img class="ImgProfil circle z-depth-3" src="img/utilisateur.jpg" id="profil">
+                <h4 class="TextNomUtilisateur center orange-text">Laura Santana</h4>
                 <div class="row center">
-                    <h5 class="header col s12 light" id="message">Consulter et modifier vos informations :</h5>
+                    <h5 class="header col s12 light">Consulter et modifier vos informations :</h5>
                 </div>
             </div>
         </header>
@@ -52,22 +51,22 @@
                 <div class="row">
                     <div class="input-field col l6 s12">
                         <i class="material-icons prefix">account_circle</i>
-                        <input value="Laura" id="icon_prefix" type="text" class="validate prenom">
-                        <label for="icon_prefix">Prénom</label>
+                        <input id="prenom" id="icon_prefix" type="text" class="validate prenom">
+                        <label for="icon_prefix" id="Prénom">Prénom</label>
                     </div>
                     <div class="input-field col l6 s12">
                         <i class="material-icons prefix">account_circle</i>
-                        <input value="Santana" id="icon_prefix" type="text" class="validate nom">
+                        <input id="nom" id="icon_prefix" type="text" class="validate nom">
                         <label for="icon_prefix">Nom</label>
                     </div>
                     <div class="input-field col l6 s12">
                         <i class="material-icons prefix">phone</i>
-                        <input value="05 59 69 69 69" id="icon_telephone tel" type="tel" class="validate tel">
+                        <input id="phone" id="icon_telephone tel" type="tel" class="validate tel">
                         <label for="icon_telephone">Téléphone</label>
                     </div>
                     <div class="input-field col l6 s12">
                         <i class="material-icons prefix">vpn_key</i>
-                        <input value="420" id="icon_prefix" type="text" class="validate idclient">
+                        <input id="key" id="icon_prefix" type="text" class="validate idclient">
                         <label for="icon_prefix">ID client</label>
                     </div>
                 </div>
@@ -89,18 +88,18 @@
             <section class="container center-align">
                 <div class="row">
                     <div class="col s6 m6 l6">
-                        <img src="img/dent1.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="d1">
+                        <img src="img/dent1.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="faceAv">
                     </div>
                     <div class="col s6 m6 l6">
-                        <img src="img/dent2.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="d2">
+                        <img src="img/dent2.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="faceAp">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col s6 m6 l6">
-                        <img src="img/dent3.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="d3">
+                        <img src="img/dent3.jpg" alt="" class="z-depth-2 responsive-img materialboxed" id="IntraAv">
                     </div>
                     <div class="col s6 m6 l6">
-                        <img src="img/dent4.png" alt="" class="z-depth-2 responsive-img materialboxed" id="d4">
+                        <img src="img/dent4.png" alt="" class="z-depth-2 responsive-img materialboxed" id="IntraAp">
                     </div>
                 </div>
             </section>
@@ -111,6 +110,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script type="module" src="js/initProfile.js"></script>
    
 
 </body>
