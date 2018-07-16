@@ -8,8 +8,8 @@ class InitProfile {
         this.request.send();
         this.request.onload = () => {
             this.jsonObject = this.request.response;
-            this.InfosProfil = new InfosProfil (this.jsonObject);
-            // console.log(this.jsonObject.image);
+            this.Profil = new InfosProfil (this.jsonObject.codePatient,this.jsonObject.prenom,this.jsonObject.nom,this.jsonObject.telephone,this.jsonObject.photoProfil,this.jsonObject.photoFaceAv,this.jsonObject.photoFaceAp,this.jsonObject.photoIntraAv, this.jsonObject.photoIntraAp, this.jsonObject.photoRadioAv, this.jsonObject.photoRadioAp);
+            //  console.log(this.jsonObject.photoRadioAv);
         }
     }
 }
