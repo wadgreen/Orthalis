@@ -1,14 +1,12 @@
 {
-    "photoProfil":"img/utilisateur.jpg",
-    "codePatient": "1234",
-    "prenom":"Pierre",
-    "nom":"santana",
-    "telephone":"0559989808",
-    "dateNaissance":"22/02/1994",
+    "prenom": "Perre",
+    "nom": "santana",
+    "dateNaissance": "1988-01-01",
+    "telephone": "0559989808",
+    "photoProfil": "img/utilisateur.jpg",
+    "codePatient": "12eee34",
     "photoFaceAv": "img/dent1.jpg",
     "photoFaceAp": "img/dent2.jpg",
-    "photoIntraAv":"img/dent3.jpg",
-    "photoIntraAp":"img/dent4.png",
-    "photoRadioAv":"img/dent4.png",
-    "photoRadioAp":"img/dent4.png"
+    "photoIntraAv": "img/dent3.jpg",
+    "photoIntraAp": "img/dent4.png"
 }
